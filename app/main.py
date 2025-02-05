@@ -3,7 +3,7 @@ import sys
 # import pyparsing - available if you need it!
 # import lark - available if you need it!
 
-
+#  https://docs.python.org/3/library/stdtypes.html#string-methods
 def match_pattern(input_line, pattern):
     if len(pattern) == 1:
         return pattern in input_line
